@@ -1,0 +1,14 @@
+.block {
+    background-color: #bcbcbc;
+}
+button {
+    .btn-del {
+        background-color: red !important;
+        outline: none;
+    }
+}
+.pointer {
+    &:hover {
+        cursor: pointer;
+    }
+}
